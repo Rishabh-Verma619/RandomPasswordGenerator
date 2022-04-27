@@ -7,11 +7,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .heading{
-    position: absolute;
-    left: 50%;
-    top: 15%;
-    transform: translate(-50%,-50%);
+    margin-top: 1rem;
     color: azure;
+    margin-bottom: 3rem;
 }
 h1{
     font-family: 'Share Tech Mono', monospace;
@@ -25,10 +23,14 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
+::-webkit-scrollbar{
+    display: none;
+}
+
 .box{
     background-color: #110e0e;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1.5rem;
@@ -49,11 +51,10 @@ input[type="text"]{
 }
 input[type="checkbox"]{
     transform: scale(2);
-    
 }
 .popup{
     position: absolute;
-    top: 30%;
+    top: 37%;
     left: 29%;
     transform: translate(-50%,-50%);
     z-index: 10;
@@ -79,4 +80,7 @@ button{
 }
 button:hover{
     background-color: rgb(33, 144, 6);
+}
+@media screen {
+    
 }
