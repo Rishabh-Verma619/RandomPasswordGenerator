@@ -10,6 +10,7 @@
     margin-top: 1rem;
     color: azure;
     margin-bottom: 3rem;
+    position: relative;
 }
 h1{
     font-family: 'Share Tech Mono', monospace;
