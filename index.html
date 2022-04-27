@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>RANDOM PASSWORD GENERATOR</h1>
+
+        </div>
+    </header>
+    <span class="popup"></span>
+    <div class="box container">
+        
+        <input type="text" readonly = "readonly" >
+        <div class="options">
+
+            <div class="option-content">
+                <label for="len">Length = <span class="value">4</span></label>
+                <input type="range" name="length" id="len" value="4" step="1" min = "4" max="30">
+            </div>
+
+            <div class="option-content">
+                <label for="txt">include alphabets</label>
+                <input type="checkbox" name="txt" id="txt">
+            </div>
+
+            <div class="option-content">
+                <label for="num">include numbers</label>
+                <input type="checkbox" name="numbers" id="num">
+            </div>
+
+            <div class="option-content">
+                <label for="char">include characters</label>
+                <input type="checkbox" name="char" id="char">    
+            </div>
+            <div class="option-content">
+                <label for="spaces">include spaces</label>
+                <input type="checkbox" name="spaces" id="spaces">    
+            </div>
+            <button>GENERATE</button>
+        </div>
+    </div>
+</body>
+</html>

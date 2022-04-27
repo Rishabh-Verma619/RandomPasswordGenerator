@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: azure;
+}
+body{
+    background: url("matrix.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.box{
+    background-color: #110e0e;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    width: 60%;
+    color: aliceblue;
+    min-width: 50%;
+}
+.container{
+    padding: 1rem;
+}
+
+input[type="text"]{
+    padding: 0.5rem;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.5rem;
+}
+input[type="checkbox"]{
+    transform: scale(2);
+    
+}
+.popup{
+    position: absolute;
+    top: 30%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.option-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+button:hover{
+    background-color: rgb(33, 144, 6);
+}
