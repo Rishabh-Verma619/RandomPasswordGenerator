@@ -10,7 +10,6 @@ const space = " ";
 const password = [];
 const validation = true;
 let popover = document.querySelector(".popup");
-
 range.oninput = (()=>{
     span.textContent = range.value;
 });
@@ -21,19 +20,15 @@ for(check of checkBoxes){
             switch (e.target.id) {
                 case "txt":
                     password[0]=alphabets
-                    console.log(password);
                     break;
                 case "num":
                     password[1]=numbers
-                    console.log(password);
                     break;
                 case "char":
                     password[2]=char;
-                    console.log(password);
                     break;
                 case "spaces":
                     password[3]=space;
-                    console.log(password);
                     break;
                 default:
                     break;
@@ -44,19 +39,15 @@ for(check of checkBoxes){
             switch (e.target.id) {
                 case "txt":
                     removed = password.splice(0,1);
-                    console.log(removed);
                     break;
                 case "num":
                     removed = password.splice(1,1);
-                    console.log(removed);
                     break;
                 case "char":
                     removed = password.splice(2,1);
-                    console.log(removed);
                     break;
                 case "spaces":
                     removed = password.splice(3,1);
-                    console.log(removed);
                     break;
                 default:
                     break;

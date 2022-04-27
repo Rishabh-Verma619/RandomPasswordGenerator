@@ -9,9 +9,14 @@
 .heading{
     position: absolute;
     left: 50%;
-    top: 10%;
+    top: 15%;
     transform: translate(-50%,-50%);
     color: azure;
+}
+h1{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4rem;
+    text-align: center;
 }
 body{
     background: url("matrix.jpg");
@@ -22,7 +27,6 @@ body{
 }
 .box{
     background-color: #110e0e;
-   
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,7 +73,7 @@ button{
     border: none;
     border-radius: 0.5rem;
     font-size: 2rem;
-    transition: all 0.5s;
+    transition: all 0.2s;
     cursor: pointer;
     padding: 0.5rem;
 }
