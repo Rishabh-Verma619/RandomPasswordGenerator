@@ -18,37 +18,51 @@
             <h1>RANDOM PASSWORD GENERATOR</h1>
         </div>
     </header>
-    <span class="popup"></span>
-    <div class="box container">
+    
+    <section class="app">
         
-        <input type="text" readonly = "readonly" >
-        <div class="options">
-
-            <div class="option-content">
-                <label for="len">Length = <span class="value">4</span></label>
-                <input type="range" name="length" id="len" value="4" step="1" min = "4" max="30">
+        <div class="box container">
+            <span class="popup"></span>
+            <input type="text" readonly = "readonly" >
+            <div class="options">
+    
+                <div class="option-content">
+                    <label for="len">Length = <span class="value">4</span></label>
+                    <input type="range" name="length" id="len" value="4" step="1" min = "4" max="30">
+                </div>
+    
+                <div class="option-content">
+                    <label for="txt">Include Alphabets</label>
+                    <input type="checkbox" name="txt" id="txt">
+                </div>
+    
+                <div class="option-content">
+                    <label for="num">Include Numbers</label>
+                    <input type="checkbox" name="numbers" id="num">
+                </div>
+    
+                <div class="option-content">
+                    <label for="char">Include Characters</label>
+                    <input type="checkbox" name="char" id="char">    
+                </div>
+                <div class="option-content">
+                    <label for="spaces">Include Spaces</label>
+                    <input type="checkbox" name="spaces" id="spaces">    
+                </div>
+                <button>GENERATE</button>
             </div>
-
-            <div class="option-content">
-                <label for="txt">Include Alphabets</label>
-                <input type="checkbox" name="txt" id="txt">
-            </div>
-
-            <div class="option-content">
-                <label for="num">Include Numbers</label>
-                <input type="checkbox" name="numbers" id="num">
-            </div>
-
-            <div class="option-content">
-                <label for="char">Include Characters</label>
-                <input type="checkbox" name="char" id="char">    
-            </div>
-            <div class="option-content">
-                <label for="spaces">Include Spaces</label>
-                <input type="checkbox" name="spaces" id="spaces">    
-            </div>
-            <button>GENERATE</button>
         </div>
-    </div>
+    </section>
+    
+    <footer class="howto container">
+        <h2 class="footer-heading">How to Use : </h2>
+        <ul class="footer-ul" type="I">
+            <li>Set the length of the password with the help of the slider.</li>
+            <li>Check Include Alphabets for A-Z alphabets in the password.</li>
+            <li>Check Include Numebrs for 1-0 numbers in the password.</li>
+            <li>Check Include Characters for (@!*_-& etc. ) in the password.</li>
+            <li>Check Spaces for including &ltSpace&gt in the password.</li>
+        </ul>
+    </footer>
 </body>
 </html>

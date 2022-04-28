@@ -18,8 +18,9 @@ h1{
     text-align: center;
 }
 body{
+    position: relative;
     background: url("matrix.jpg");
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -28,19 +29,24 @@ body{
     display: none;
 }
 
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
 .box{
     background-color: #110e0e;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     font-size: 1.5rem;
-    width: 60%;
+    width: 40%;
     color: aliceblue;
-    min-width: 50%;
+    min-width: 150px;
 }
 .container{
     padding: 1rem;
+    position: relative;
 }
 
 input[type="text"]{
@@ -55,10 +61,10 @@ input[type="checkbox"]{
 }
 .popup{
     position: absolute;
-    top: 37%;
-    left: 29%;
-    transform: translate(-50%,-50%);
+    top: 0;
+    left: 0;
     z-index: 10;
+    font-size: 1rem;
 }
 .options{
     display: flex;
@@ -82,6 +88,20 @@ button{
 button:hover{
     background-color: rgb(33, 144, 6);
 }
-@media screen {
-    
+.howto{
+    color: aliceblue;
+    background: black;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.footer-ul{
+    list-style: none;
+}
+.footer-ul li{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.footer-heading{
+    margin: 2rem auto;
 }
