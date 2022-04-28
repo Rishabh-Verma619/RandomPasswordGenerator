@@ -20,19 +20,19 @@ for(check of checkBoxes){
             switch (e.target.id) {
                 case "txt":
                     password[0]=alphabets
-                    console.log(password);
+                    // console.log(password);
                     break;
                 case "num":
                     password[1]=numbers
-                    console.log(password);
+                    // console.log(password);
                     break;
                 case "char":
                     password[2]=char;
-                    console.log(password);
+                    // console.log(password);
                     break;
                 case "spaces":
                     password[3]=space;
-                    console.log(password);
+                    // console.log(password);
                     break;
                 default:
                     break;
@@ -43,19 +43,19 @@ for(check of checkBoxes){
             switch (e.target.id) {
                 case "txt":
                     password.splice(0,1,"");
-                    console.log(password);
+                    // console.log(password);
                     break;
                 case "num":
                     password.splice(1,1,"");
-                    console.log(password);
+                    // console.log(password);
                     break;
                 case "char":
                     password.splice(2,1,"");
-                    console.log(password);
+                    // console.log(password);
                     break;
                 case "spaces":
                     password.splice(3,1,"");
-                    console.log(password);
+                    // console.log(password);
                     break;
                 default:
                     break;
