@@ -41,8 +41,7 @@ body{
     background-color: #110e0e;
     font-size: 1.5rem;
     width: 40%;
-    color: aliceblue;
-    min-width: 90%;
+    color: aliceblue; 
 }
 .container{
     padding: 1rem;
@@ -75,6 +74,7 @@ input[type="checkbox"]{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem
 }
 button{
     margin-top: 1rem;
@@ -104,4 +104,19 @@ button:hover{
 }
 .footer-heading{
     margin: 2rem auto;
+}
+@media only screen and (max-width:850px) {
+    .box{
+        width: 50vw;
+    }
+}
+@media only screen and (max-width:680px){
+    .box{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width:600px){
+    .box{
+        width: 95vw;
+    }
 }
